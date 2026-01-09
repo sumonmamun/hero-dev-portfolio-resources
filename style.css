@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFFFFF;
+padding-top: 24px;
+}
+
+nav{
+    width: 90%;
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: none;
+    gap: 32px;
+    align-items: center;
+    font-style: 16px;
+    text-transform: capitalize;
+    padding: 16px 120px 16px 120px;
+    color: #000000;
+}
+.btn{
+   background-color: #30B868;
+   border: none;
+   padding: 12.5px 16px;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: semi bold;
+   color: white;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #0f172a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 36px;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #475569;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+}
+
+.nav-links .btn {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.hero {
+  background: linear-gradient(rgba(247, 238, 238, 0.6), rgba(15, 14, 14, 0.6)),
+  url("./assets/hero-bg.png") center/cover;
+  padding: 120px 80px;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.badge {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #4ade80;
+}
+
+.hero p {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons .btn {
+  margin-right: 15px;
+}
+
+.green {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.outline {
+  border: 1px solid #fff;
+  color: #fff;
+}
