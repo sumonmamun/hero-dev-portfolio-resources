@@ -21,15 +21,18 @@ nav{
 }
 nav .menu {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
     border: none;
     gap: 32px;
     align-items: center;
-    font-style: 16px;
-    text-transform: capitalize;
-    padding: 16px 120px 16px 120px;
-    color: #000000;
+    padding: 16px 120px;
+   
+}
+nav .menu a{
+  font-size: 16px;
+  text-decoration: none;
+   color: #000000;
+   text-align: left;
 }
 .btn{
    background-color: #30B868;
@@ -39,25 +42,11 @@ nav .menu {
    font-size: 16px;
    font-weight: semi bold;
    color: white;
-}* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
 body {
   color: #0f172a;
 }
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 80px;
-  background: #fff;
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -96,9 +85,9 @@ body {
   max-width: 700px;
 }
 
-.badge {
-  background: #e8f5e9;
-  color: #2e7d32;
+.light {
+  background: #ffffff;
+  color: #30B868;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 14px;
@@ -119,15 +108,50 @@ body {
 }
 
 .hero-buttons .btn {
-  margin-right: 15px;
+  
 }
 
 .green {
-  background: #2e7d32;
-  color: #fff;
+  
 }
 
 .outline {
-  border: 1px solid #fff;
-  color: #fff;
+
+}
+.master {
+ 
+}
+
+
+.cards {
+  
+}
+
+.card {
+  
+}
+
+.solution {
+  
+}
+
+.solution-text ul {
+  
+}
+
+.solution-text li {
+  
+}
+
+.cta {
+  
+}
+
+.cta small {
+  
+}
+
+
+.footer {
+  
 }
