@@ -48,25 +48,12 @@ nav .menu a{
    line-height: 19px;
 }
 
-body {
-  color: #0f172a;
-}
 .logo {
   display: flex;
   align-items: center;
   gap: 70px 120px 134px 120px;
   height: 16px;
 }
-.btn {
-  padding: 10px 18px;
-  border-radius: 6px;
-}
-
-.nav-links .btn {
-  background: #2e7d32;
-  color: #fff;
-}
-
 .hero {
   background: linear-gradient(rgba(247, 238, 238, 0.6), rgba(15, 14, 14, 0.6)),
   url("./assets/hero-bg.png") center/cover;
@@ -143,7 +130,7 @@ body {
 
 
 footer {
-    background: var(--dark-bg);
+
     color: white;
     text-align: center;
 }
@@ -173,9 +160,6 @@ footer {
   gap: 10px;
 }
 
-.footer-logo img {
-  width: 40px;
-}
 
 .footer-logo span {
   font-size: 26px;
@@ -191,13 +175,13 @@ footer {
 
 .icons {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   justify-content: flex-end;
 }
 
 .icons a {
-  width: 34px;
-  height: 34px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: #fff;
   color: #021b33;
@@ -217,6 +201,6 @@ hr {
 
 .copyright {
   text-align: center;
-  font-size: 13px;
-  color: #cbd5e1;
+  font-size: 16px;
+  color: #FAFAFA;
 }
